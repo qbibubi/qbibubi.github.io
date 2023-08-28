@@ -1,9 +1,7 @@
 <template>
-  <section>
-    <footer>
-      Footer
-    </footer>
-  </section>
+  <footer>
+    Footer
+  </footer>
 </template>
 
 <script setup lang="ts">

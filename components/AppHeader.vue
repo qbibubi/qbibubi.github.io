@@ -1,9 +1,7 @@
 <template>
-  <section>
-    <header>
-      Header
-    </header>
-  </section>
+  <header>
+    Header
+  </header>
 </template>
 
 <script setup lang="ts">
