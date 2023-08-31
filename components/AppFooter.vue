@@ -1,8 +1,9 @@
 <template>
-  <footer>
-    Footer
+  <footer class="bg-gray-800">
+    <div class="">
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+    </div>
   </footer>
 </template>
-
-<script setup lang="ts">
-</script>
