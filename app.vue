@@ -3,7 +3,7 @@
     <div class="container mx-auto flex-col justify-center bg-gray-800">
       <AppHeader class="bg-gray-700" />
       <NuxtPage class="bg-gray-800 text-white" />
-      <AppFooter />
+      <AppFooter class="bg-gray-700" />
     </div>
   </div>
 </template>
