@@ -1,3 +1,3 @@
 # qblog
 
-Simple minimalist blog focused on content
+Simple and minimalist blog focused on content rather than form.
