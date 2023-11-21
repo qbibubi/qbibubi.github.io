@@ -4,4 +4,9 @@
 
 # Installation
 
-**WARNING**: This repository is in its early development stages and is most likely unusuable
+**WARNING**: This repository is in its early development stages and is most likely unusuable.
+
+# TODO
+- [ ] Landing page
+- [ ] Blog template
+
