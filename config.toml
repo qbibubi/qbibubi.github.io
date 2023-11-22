@@ -1,6 +1,9 @@
 # base_url = "https://qbibubi.dev" i wish lol (one day)
 base_url = "https://qbibubi.github.io/qblog/"
-title="qbibubi"
+author="qbibubi"
+title="qblog"
+description="brutalist blog focused on content"
+default_language="en"
 compile_sass = true
 build_search_index = true
 
