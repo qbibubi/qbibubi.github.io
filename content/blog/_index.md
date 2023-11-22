@@ -1,5 +1,6 @@
 +++
-title = "List of mycology blogs"
+title = "List of my blog posts"
 sort_by = "date"
-page_template = "mycology-page.html"
+template = "blog.html"
+page_template = "blog-page.html"
 +++
