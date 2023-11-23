@@ -3,6 +3,7 @@ base_url = "https://qbibubi.github.io/qblog/"
 author="qbibubi"
 title="qblog"
 description="brutalist blog focused on content"
+
 default_language="en"
 compile_sass = true
 build_search_index = true
@@ -11,3 +12,4 @@ build_search_index = true
 highlight_code = true
 
 [extra]
+theme = "toggle"
