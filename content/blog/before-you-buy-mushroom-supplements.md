@@ -4,9 +4,10 @@ date = "2023-11-23"
 template = "blog-page.html"
 +++
 
+
 ## Parts of mushroom used in supplements
 
-Mushrooms consist of mycelium and fruiting bodies - which are made of a cap and a stem. Fruiting bodies and mycelium may contain different compounds from each other, so it is advised to know what is used in the supplement. Using both of mycelium and fruiting body in a supplement is called *full spectrum* supplement.
+Mushrooms consist of mycelium and fruiting bodies - which are made of a cap and a stem. Fruiting bodies and mycelium may contain different compounds from each other, so it is advised to know what is used in the supplement you are looking for. Using both of mycelium and fruiting body in a supplement is called *full spectrum* supplement.
 
 ## Processing and extraction
 
@@ -24,8 +25,8 @@ Process of extraction can be done with *water extraction, alcohol extraction or 
 
 Extraction method depends on the type of compound we are trying to extract from the fruiting body. For example, beta-glucans are compounds responsible for immune supporting benefits of mushrooms and they are hot water-soluble - it means that no alcohol is used to extract these compounds. 
 
-- ***Turkey tail (Trametes versicolor)*** is a mushroom with a lot of beta-glucans which are hot water-soluble and can be made to use turkey tail tea.
-- ***Chaga (Inonotus obliquus)*** and ***Reishi/Lingzhi (Ganoderma sichuanense)*** contain *Triterpenes* which are not water-soluble. They benefit from alcohol extraction.
+- ***Turkey tail (Trametes versicolor)*** is a mushroom with a lot of beta-glucans which are hot water-soluble and can be made to use Turkey Tail tea.
+- ***Chaga (Inonotus obliquus)*** and ***Reishi (Ganoderma Lucidum)*** contain *Triterpenes* which are not water-soluble. They benefit from an alcohol extraction.
 
 There is also a case where both of the methods are used - it is called *dual extraction*. More often than not they are not used simultaneously but rather one after another. It can be alcohol extraction first and then hot water extraction or the other way around.
 
@@ -35,7 +36,7 @@ Label on the packaging can tell you everything you need to know about the supple
 
 Look out for "Other ingredients" section. If it is a ground myceliated grain it will be written there with other things that were used during the manufacturing process. Such case could be "flow aid" due to the nature of mushrooms extracts being sticky it would be used to help the flow of the mushroom extract through the manufacturing system.
 
-Another thing to look at would be if the supplement facts panel is overexaggerating the amount of mushroom present in a product. Let me explain, when the mushrooms are extracted most of the fruiting bodies would not end up in the final product.
+Another thing to look at would be if the supplement facts panel is exaggerating the amount of mushroom present in a product. Let me explain, when the mushrooms are extracted most of the fruiting bodies would not end up in the final product.
 
 For example, due to the nature of concentrated extracts it can take around 4 kilograms of *Lion's mane (Hericium Erinaceus)* fruiting body to get 1 kilogram of extract. It means it is 4:1 extract ratio. 
 
