@@ -4,7 +4,6 @@ date = "2023-11-23"
 template = "blog-page.html"
 +++
 
-
 ## Parts of mushroom used in supplements
 
 Mushrooms consist of mycelium and fruiting bodies - which are made of a cap and a stem. Fruiting bodies and mycelium may contain different compounds from each other, so it is advised to know what is used in the supplement you are looking for. Using both of mycelium and fruiting body in a supplement is called *full spectrum* supplement.
