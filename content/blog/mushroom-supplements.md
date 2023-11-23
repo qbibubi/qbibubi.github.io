@@ -4,7 +4,6 @@ date = "2023-11-23"
 template = "blog-page.html"
 +++
 
-
 ## Parts of mushroom used in supplements
 
 Mushrooms consist of mycelium and fruiting bodies - which are made of a cap and a stem. Fruiting bodies and mycelium may contain different compounds from each other, so it is advised to know what is used in the supplement. Using both of mycelium and fruiting body in a supplement is called *full spectrum* supplement.
@@ -38,6 +37,6 @@ Look out for "Other ingredients" section. If it is a ground myceliated grain it 
 
 Another thing to look at would be if the supplement facts panel is overexaggerating the amount of mushroom present in a product. Let me explain, when the mushrooms are extracted most of the fruiting bodies would not end up in the final product.
 
-For example, due to the nature of concentrated extracts it can take around 4 kilograms of *Lion's mane (Hericium Erinaceus)* fruiting body to get 1 kilogram of extract. It means it's 4:1 extract ratio. 
+For example, due to the nature of concentrated extracts it can take around 4 kilograms of *Lion's mane (Hericium Erinaceus)* fruiting body to get 1 kilogram of extract. It means it is 4:1 extract ratio. 
 
 Some manufactures will use this to fool you by saying there is 4 times more mushrooms in the product than there actually is using equivalent weights. This can be spotted if a 500 mg capsule contains 2000 mg of mushroom inside it.
