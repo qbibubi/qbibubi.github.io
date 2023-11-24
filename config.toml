@@ -4,6 +4,7 @@ title="qblog"
 description="brutalist blog focused on content"
 minify_html = true
 default_language="en"
+compile_sass = true
 
 [markdown]
 highlight_code = true
