@@ -1,12 +1,10 @@
-# base_url = "https://qbibubi.dev" i wish lol (one day)
 base_url = "https://qbibubi.github.io"
 author="qbibubi"
 title="qblog"
 description="brutalist blog focused on content"
-
+minify_html = true
 default_language="en"
-compile_sass = true
-build_search_index = true
 
 [markdown]
 highlight_code = true
+
