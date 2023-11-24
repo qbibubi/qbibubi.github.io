@@ -4,6 +4,13 @@
 <h1 class="title">
   This is qblog - brutalist blog focusing on content 
 </h1>
-<p>Click <a href="{{ get_url(path='@/blog/_index.md') }}">here</a> to see my posts.</p>
-<p>Click <a href="{{ get_url(path='@/projects/_index.md') }}">here</a> to see my projects.</p>
+<hr>
+<div class="blog">
+ <h2>Blog Posts</h2>
+  <ul>
+    {% for post in section.pages %}
+      <h1><a href="{{ post.permalink }}">{{ post.title }}</a></h1>
+    {% endfor %}
+  </ul>
+</div>
 {% endblock content %}
