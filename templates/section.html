@@ -1,17 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <h1 class="title">
-    qblog - brutalist blog focusing on content
-  </h1>
-  <hr>
-  <div>
-    <ul>
-    {% for post in section.pages %}
-      <li><a href="{{ post.permalink }}">{{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
-    <hr>
-    
-  </div>
+  {% if section.extra.section_path %}
+        {% set section = get_section(path=section.extra.section_path) %}
+    {% endif -%}
+
+  {% block title %}
+    {{ macros::set_title( title=section.title ) }}
+  {% endblock title %}
+
+  {% block blog_posts %}
+    <main>
+    {{ macros::list_posts( pages=section.pages ) }}
+    </main>
+  {% endblock blog_posts %}
 {% endblock content %}
