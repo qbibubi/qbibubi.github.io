@@ -1,6 +1,5 @@
 +++
-path = "posts"
-title = "List of my blog posts"
+path = "blog"
+title = "Blog posts"
 sort_by = "date"
-page_template = "blog-page.html"
 +++
