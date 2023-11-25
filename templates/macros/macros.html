@@ -1,12 +1,7 @@
 {# sets title on a page based on section #}
 {% macro set_title(title) %}
-<title>{{ title }}</title>
+<h1>{{ title }}</h1>
 {% endmacro set_title %}
-
-{# sets title on a page based on page #}
-{% macro set_page_title(title) %}
-
-{% endmacro set_page_title%}
 
 {# list posts from /content/blog #}
 {% macro list_posts(pages) %}
