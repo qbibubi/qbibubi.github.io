@@ -1,6 +1,12 @@
-{% import "macros/macros.html" as macros %}
+<div class="site-header">
+  <h1 class="site-title"><a href={{ config.base_url }}>{{ config.title }}</a></h1>
+  <div class="prompt-line">
+    <span class="prompt-host">guest@mycelium</span>:<span class="prompt-path">~/blog</span>$ cat menu.txt<span class="prompt-cursor"></span>
+  </div>
+</div>
 
-<header> 
-  <h1><a href={{ config.base_url }}>{{ config.title }}</a></h1>
-</header>
-<hr>
+<nav class="navbar">
+  {% set current = current_path | default(value='/') %}
+  <a href={{ get_url(path="/") }} {% if current == '/' %}class="active"{% endif %}>home</a>
+  <a href={{ get_url(path="/blog") }} {% if current is starting_with("/blog") %}class="active"{% endif %}>blog</a>
+</nav>

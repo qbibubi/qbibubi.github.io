@@ -5,11 +5,13 @@
   {% include "components/header.html" %}
 
   <body>
-    <section class="section">
-    {% include "components/navbar.html" %}
+    <div class="section">
+      {% include "components/navbar.html" %}
 
-    {% block content %}
-    {% endblock content %}
-    </section>
+      {% block content %}
+      {% endblock content %}
+
+      {% include "components/footer.html" %}
+    </div>
   </body>
 </html>

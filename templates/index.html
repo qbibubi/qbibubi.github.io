@@ -1,1 +1,33 @@
-{% extends "section.html" %}
+{% extends "base.html" %}
+
+{% block content %}
+<div class="boot-sequence">
+  <div class="boot-line"><span class="boot-info">mycelium kernel 0.4.2-spore — booting...</span></div>
+  <div class="boot-line"><span class="boot-ok">[+]</span> initializing hyphal network</div>
+  <div class="boot-line"><span class="boot-ok">[+]</span> mounting /root filesystem</div>
+  <div class="boot-line"><span class="boot-ok">[+]</span> loading fruiting body modules</div>
+  <div class="boot-line"><span class="boot-ok">[+]</span> chitin firewall: enabled</div>
+  <div class="boot-line"><span class="boot-ok">[+]</span> spore-based entropy pool seeded</div>
+  <div class="boot-line"><span class="boot-warn">[!]</span> psilocybin.sys signature unverified — loading anyway</div>
+  <div class="boot-line"><span class="boot-ok">[+]</span> /dev/brain interface attached</div>
+  <div class="boot-line"><span class="boot-ok">[+]</span> reverse-engineering subsystem: ready</div>
+  <div class="boot-line"><span class="boot-ok">[+]</span> mycelium mesh network: connected</div>
+  <div class="boot-line"><span class="boot-info">bootstrap complete in 0.042s</span></div>
+
+  <div class="boot-prompt-area">
+    <div class="boot-prompt">
+      <span class="prompt-host">qbibubi@mycelium</span>:<span class="prompt-path">~</span>$ ls -la /home/
+    </div>
+    <ul class="boot-menu">
+      <li><a href={{ get_url(path="/blog") }}>blog/</a> &mdash; writings on mushrooms, reversing, and other spores</li>
+      <li><a href="https://github.com/qbibubi">github/</a> &mdash; source code and projects</li>
+      <li><span style="color: #5a7a5a;">projects/</span> &mdash; coming soon...</li>
+      <li><span style="color: #5a7a5a;">about.txt</span> &mdash; coming soon...</li>
+    </ul>
+
+    <div class="boot-prompt" style="margin-top: 24px;">
+      <span class="prompt-host">qbibubi@mycelium</span>:<span class="prompt-path">~</span>$ <span class="prompt-cursor"></span>
+    </div>
+  </div>
+</div>
+{% endblock content %}

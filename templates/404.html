@@ -1,5 +1,12 @@
 {% extends "base.html" %}
 
-{% block main_content %}
-<span>Error code 404 - Page not found :c</span>
-{% endblock main_content%}
+{% block content %}
+<div class="error-page">
+  <h1 class="error-code">404</h1>
+  <p class="error-msg">
+    <span style="color: #ff6b6b;">ERROR:</span> segment not found<br>
+    the mycelium network doesn't reach this path
+  </p>
+  <p><a href={{ config.base_url }}>cd /home</a></p>
+</div>
+{% endblock content %}

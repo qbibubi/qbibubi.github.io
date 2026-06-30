@@ -1,43 +1,60 @@
 +++
-title = "Before You Buy. What You Need To Know About Mushroom Supplements"
+title = "Before You Buy: What You Need To Know About Mushroom Supplements"
 date = "2023-11-23"
 template = "blog-page.html"
+description = "A reverse-engineer's guide to mushroom supplement labels — mycelium vs fruiting body, extraction methods, and label deception."
 +++
 
+> **target:** consumer supplement labels  
+> **method:** static analysis  
+> **goal:** understand what you're actually buying
 
-## Parts of mushroom used in supplements
+## Parts of the Mushroom
 
-Mushrooms consist of mycelium and fruiting bodies - which are made of a cap and a stem. Fruiting bodies and mycelium may contain different compounds from each other, so it is advised to know what is used in the supplement you are looking for. Using both of mycelium and fruiting body in a supplement is called *full spectrum* supplement.
+Mushrooms consist of two distinct structures: **mycelium** (the underground network) and **fruiting bodies** (cap + stem — what you see above ground). These contain different compounds, so the part used matters. A product using both is called *full spectrum*.
 
-## Processing and extraction
+## Processing & Extraction
 
-After knowing which part of the mushroom was used, either mycelium or the fruiting body we can proceed with understanding what method has been used to process the mushroom and its extraction method (if it has been extracted).
+After identifying the part used, the next question is how it was processed.
 
-There are trace amounts of mushroom mycelium inside the myceliated grain (colonized grain spawn). The mushroom itself cannot be separated from the ground grains and thus it is not possible to get a pure mycelium product which in the end contains all of the grain and a bit of mycelium mixed together.
+**Myceliated grain** — This is grain spawn colonized by mycelium. The mushroom tissue cannot be separated from the grain, so the final product is mostly grain with trace mycelium. Not pure mushroom.
 
-Another way would be to get only the fruit of the mushroom, dehydrate it and grind it down to fine powder. This approach contains only the ground mushroom body with no additional grain. Due to the nature of mushrooms and their building blocks it might be tough for our body to extract all the compounds from the fruit due to *chitin* - a tough compound used to build cell walls inside the mushroom, which we humans do not digest.
+**Dried fruiting body powder** — Whole mushrooms, dehydrated and ground. Cleaner than myceliated grain, but there's a catch: mushrooms contain **chitin**, a structural compound humans cannot digest. Without extraction, bioavailability is low.
 
-If you want to get to the next level extraction is the way to go. Extraction makes the mushroom compounds bioavailable which means that we can absorb them. Usually it is either done with alcohol or water.
+**Extraction** — This is where it gets interesting. Extraction makes compounds bioavailable. Two solvents are used:
 
-## Alcohol vs water extract
+| Solvent | Target Compounds | Example Mushrooms |
+|---------|-----------------|-------------------|
+| Hot water | Beta-glucans (immune support) | Turkey Tail |
+| Alcohol | Triterpenes | Chaga, Reishi |
+| Both (dual) | Full spectrum | Lion's Mane, Reishi |
 
-Process of extraction can be done with *water extraction, alcohol extraction or both (dual extraction)*. Colonized grain spawns are not extracted so extractions only apply to ground dried fruiting bodies of mushrooms. 
+Dual extraction is usually sequential — alcohol first, then hot water, or vice versa. They are rarely done simultaneously.
 
-Extraction method depends on the type of compound we are trying to extract from the fruiting body. For example, beta-glucans are compounds responsible for immune supporting benefits of mushrooms and they are hot water-soluble - it means that no alcohol is used to extract these compounds. 
+## Label Analysis: What To Look For
 
-- ***Turkey tail (Trametes versicolor)*** is a mushroom with a lot of beta-glucans which are hot water-soluble and can be made to use Turkey Tail tea.
-- ***Chaga (Inonotus obliquus)*** and ***Reishi (Ganoderma Lucidum)*** contain *Triterpenes* which are not water-soluble. They benefit from an alcohol extraction.
+The label is the binary — you just need to know how to read it.
 
-There is also a case where both of the methods are used - it is called *dual extraction*. More often than not they are not used simultaneously but rather one after another. It can be alcohol extraction first and then hot water extraction or the other way around.
+### Active Compounds
+Check for measured levels of: **beta-glucans**, **triterpenes**, **cordycepins**. If these aren't listed, you're flying blind.
 
-## Why is it good to read labels
+### "Other Ingredients"
+Myceliated grain will appear here. Also look for flow agents — mushroom extracts are sticky and need help moving through manufacturing equipment. These are normal but worth knowing about.
 
-Label on the packaging can tell you everything you need to know about the supplement you are trying to buy. You can check the level of active compounds (beta-glucans, [triterpenes](https://en.wikipedia.org/wiki/Triterpene) and [cordycepins](https://en.wikipedia.org/wiki/Cordycepin) etc.).
+### The Ratio Trick
+Concentrated extracts take raw material and reduce it. For example, Lion's Mane at a 4:1 ratio means 4 kg of fruiting bodies yield 1 kg of extract.
 
-Look out for "Other ingredients" section. If it is a ground myceliated grain it will be written there with other things that were used during the manufacturing process. Such case could be "flow aid" due to the nature of mushrooms extracts being sticky it would be used to help the flow of the mushroom extract through the manufacturing system.
+Some manufacturers exploit this: they'll claim a 500 mg capsule contains "2000 mg of mushrooms" by multiplying the extract weight by the ratio. This is **equivalent weight** marketing, not actual mushroom content. A 500 mg capsule cannot physically hold 2000 mg of material.
 
-Another thing to look at would be if the supplement facts panel is exaggerating the amount of mushroom present in a product. Let me explain, when the mushrooms are extracted most of the fruiting bodies would not end up in the final product.
+## Bottom Line
 
-For example, due to the nature of concentrated extracts it can take around 4 kilograms of *Lion's mane (Hericium Erinaceus)* fruiting body to get 1 kilogram of extract. It means it is 4:1 extract ratio. 
+- Prefer **fruiting body** over myceliated grain
+- Prefer **extracted** over raw powder
+- Check for **active compound levels** on the label
+- Watch for **ratio inflation** in the supplement facts panel
 
-Some manufactures will use this to fool you by saying there is 4 times more mushrooms in the product than there actually is using equivalent weights. This can be spotted if a 500 mg capsule contains 2000 mg of mushroom inside it.
+```
+[ANALYSIS COMPLETE]
+confidence: high
+signature: valid
+```

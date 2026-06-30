@@ -2,16 +2,12 @@
 
 {% block content %}
   {% if section.extra.section_path %}
-        {% set section = get_section(path=section.extra.section_path) %}
-    {% endif -%}
+    {% set section = get_section(path=section.extra.section_path) %}
+  {% endif %}
 
-  {% block title %}
-    {{ macros::set_title( title=section.title ) }}
-  {% endblock title %}
+  {{ macros::set_title(title=section.title) }}
 
-  {% block blog_posts %}
-    <main>
-    {{ macros::list_posts( pages=section.pages ) }}
-    </main>
-  {% endblock blog_posts %}
+  <main>
+    {{ macros::list_posts(pages=section.pages) }}
+  </main>
 {% endblock content %}

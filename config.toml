@@ -1,10 +1,9 @@
 base_url = "https://qbibubi.github.io"
-title="qblog"
-description="brutalist blog focused on content"
+title = "qbibubi@mycelium:~$"
+description = "Mushrooms, hacking, reverse engineering — a terminal of thoughts"
 
 minify_html = true
-default_language="en"
+default_language = "en"
 compile_sass = true
 
 [markdown]
-highlight_code = true
